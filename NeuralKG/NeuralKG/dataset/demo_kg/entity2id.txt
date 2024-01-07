@@ -1,0 +1,15 @@
+Hangzhou   	0
+Nanjing   	1
+ChaoyangDistrict   	2
+Beijing   	3
+Province   	4
+ZhejiangUniversity   	5
+WestLakeDistrict   	6
+JiangsuProvince   	7
+GulouDistrict   	8
+TsinghuaUniversity   	9
+ZhejiangProvince   	10
+HaidianDistrict   	11
+NanjingUniversity   	12
+China   	13
+University   	14
