@@ -1,7 +1,0 @@
-neighboringprovinces   	0
-categoryis   	1
-locatedintheprovince   	2
-inclusivearea   	3
-locatedincountries   	4
-locatedinthecity   	5
-includeunit   	6

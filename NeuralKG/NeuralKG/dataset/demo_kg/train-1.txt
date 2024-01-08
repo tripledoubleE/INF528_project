@@ -1,5 +1,0 @@
-ZhejiangUniversity   	locatedintheprovince   	XihuDistrict
-Hangzhou inclusivearea   	WestLakeDistrict
-TsinghuaUniversity   	locatedintheprovince   	HaidianDistrict
-TsinghuaUniversity   	locatedinthecity   	Beijing
-Beijing   	includeunit   	HaidianDistrict
