@@ -59,6 +59,7 @@ if __name__ == "__main__":
 
         dataEntities, numberOfPairs = initialize.getEntity.get_entity(refined_text)
         """ getentity return dataentity[0] """
+
         if dataEntities:
             initialize.export.dumpdata(dataEntities[0])
 

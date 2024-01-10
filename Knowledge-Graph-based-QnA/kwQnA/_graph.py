@@ -14,27 +14,42 @@ class GraphEnt:
 
     def createGraph(self, dataEntities):
         entity_list = dataEntities.values.tolist()
+        #print('entity list _graph.py: ', entity_list)
         source, relations, target = [],[],[]
 
-        for i in entity_list:
+        filtered_list = [[item for item in sublist if item != ''] for sublist in entity_list]
+
+        print(filtered_list)
+
+        for i in filtered_list:
             # if i[0] == "" or i[1] == "" or i[3] == "":
             #     pass
             # else:
+
+            ### burada sikinti var !!!
+
             source.append(i[0])
             relations.append(i[1])
-            # aux_relations = i[2]
-            target.append(i[3])
-            # time = i[4]
-            # place = i[5]
+            target.append(i[2])
+            #aux_relations = i[2]
+            #time = i[4]
+            #place = i[5]
 
 
         kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations})
         G=nx.from_pandas_edgelist(kg_df, "source", "target", edge_attr=True, create_using=nx.MultiDiGraph())
 
-        plt.figure(figsize=(12,12))
+        fig, ax = plt.subplots(figsize=(12, 12))
         pos = nx.spring_layout(G, k = 2) # k regulates the distance between nodes
-        nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_cmap=plt.cm.Blues, pos = pos)
+        nx.draw(G, with_labels=True, node_color='skyblue', node_size=1500, edge_cmap=plt.cm.Blues, pos=pos, ax=ax)
         # nx.draw_networkx_edge_labels(G,pos,edge_labels=labels,font_size=30)
+
+        # Add edge labels
+        edge_labels = {(edge[0], edge[1]): edge[2]['edge'] for edge in G.edges(data=True)}
+        nx.draw_networkx_edge_labels(G, pos=pos, edge_labels=edge_labels, font_color='red', ax=ax)
+
+        #deneme
+
 
         plt.show()
 
