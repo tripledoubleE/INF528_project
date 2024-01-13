@@ -198,4 +198,4 @@ class QuestionAnswer:
             for i in loaded:
                 subjectS = loaded[str(i)]["source"]
                 if subjectQ == subjectS and pair[1] == 'cause':
-                    return loaded[str(i)]["cause"]
+                    return loaded[str(i)]["cause"][3:-3]
