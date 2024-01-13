@@ -10,9 +10,9 @@ In this project, we build upon the foundation provided by the [Knowledge-Graph-b
 
 2. **Data Preparation for Computer Engineering Courses**: We will curate and prepare data specific to Computer Engineering courses to enhance the functionality of the QA System. (NOT IMPLEMENTED YET)
 
-3. **New Question Types**: Introduce additional question types, such as "HOW," to broaden the range of queries supported by the system. (NOT IMPLEMENTED YET)
+3. **New Question Types**: Introduce additional question types, such as "WHY" to broaden the range of queries supported by the system.
 
-4. **Improvements to Plot Graph and Entity Options**: Enhance the visualization of plot graphs and refine entity options to make them more user-friendly and accessible. (NOT IMPLEMENTED YET)
+4. **Improvements to Plot Graph and Entity Options**: Enhance the visualization of plot graphs and refine entity options to make them more user-friendly and accessible.
 
 5. **Accuracy for Complex Structured Sentences**: Work towards improving the accuracy of the QA System, especially when dealing with complex structured sentences. (NOT IMPLEMENTED YET)
 
