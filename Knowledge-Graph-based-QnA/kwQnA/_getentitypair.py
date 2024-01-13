@@ -45,7 +45,7 @@ class GetEntity:
                 for pair in normal_sent_:
                     ent_pairs.append(pair)
 
-                pairs = pd.DataFrame(ent_pairs, columns=['source', 'relation', 'aux_relation', 'target', 'time', 'place'])
+                pairs = pd.DataFrame(ent_pairs, columns=['source', 'relation', 'aux_relation', 'target', 'time', 'place', 'cause'])
                 number_of_ent_pairs = str(len(ent_pairs))
 
                 final_entity_pairs.append(pairs)
