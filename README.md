@@ -26,10 +26,10 @@ To get started with this project, follow these steps:
    git clone https://github.com/tripledoubleE/INF528_project.git
 
 2. **Install the required packages**:
+   
    ```bash
-  pip install -r requirements.txt
-  
-3. After creating the data.txt file, you can ask questions to the system. Here is an example:
+   pip install -r requirements.txt
+4. After creating the data.txt file, you can ask questions to the system. Here is an example:
    ```bash
   python3 _init.py -i data.txt -q  "Why Ece ate chocolate?"
   
