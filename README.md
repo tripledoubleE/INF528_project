@@ -39,8 +39,8 @@ To get started with this project, follow these steps:
    ```bash
    python3 _init.py -i data.txt -g y
 
-   A sample knowledge-graph created y the system using data.txt file as follows:
-
+   A sample knowledge graph created y the system using data.txt file as follows:
+   ![Alt text](https://github.com/tripledoubleE/INF528_project/blob/master/sample_kg.png)
   
 5. In addition, you can see the entities found by the question-answering system as a data frame using the following command:
    
