@@ -30,16 +30,19 @@ To get started with this project, follow these steps:
    ```bash
    pip install -r requirements.txt
 4. After creating the data.txt file, you can ask questions to the system. Here is an example:
+   
    ```bash
-  python3 _init.py -i data.txt -q  "Why Ece ate chocolate?"
+   python3 _init.py -i data.txt -q  "Why Ece ate chocolate?"
   
 4. You can also see the knowledge graph created by the system using the following command:
+   
    ```bash
-  python3 _init.py -i data.txt -g y
+   python3 _init.py -i data.txt -g y
   
 5. In addition, you can see the entities found by the question-answering system as a data frame using the following command:
+   
   ```bash
-  python3 _init.py -i data.txt -s y
+python3 _init.py -i data.txt -s y
    
 
 
