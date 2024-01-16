@@ -38,12 +38,11 @@ To get started with this project, follow these steps:
    
    ```bash
    python3 _init.py -i data.txt -g y
+
+   A sample knowledge-graph created y the system using data.txt file as follows:
+
   
 5. In addition, you can see the entities found by the question-answering system as a data frame using the following command:
    
   ```bash
 python3 _init.py -i data.txt -s y
-   
-
-
-
